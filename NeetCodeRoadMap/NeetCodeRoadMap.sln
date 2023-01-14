@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49_GroupAnagrams", "Arrays\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347._TopKFrequentElements", "Arrays\347._TopKFrequentElements\347._TopKFrequentElements.csproj", "{36D9FDC0-D35D-4368-AA94-66C6B773609C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238._ProductofArrayExceptSelf", "Arrays\238._ProductofArrayExceptSelf\238._ProductofArrayExceptSelf.csproj", "{AC608CE0-4011-4C40-AF56-4AAB62B583D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{36D9FDC0-D35D-4368-AA94-66C6B773609C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D9FDC0-D35D-4368-AA94-66C6B773609C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D9FDC0-D35D-4368-AA94-66C6B773609C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC608CE0-4011-4C40-AF56-4AAB62B583D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC608CE0-4011-4C40-AF56-4AAB62B583D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC608CE0-4011-4C40-AF56-4AAB62B583D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC608CE0-4011-4C40-AF56-4AAB62B583D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{33280A00-0838-4BC9-80B1-F503F7D9C1BB} = {47B8B935-B346-475D-ADBF-3C6651DF04E6}
 		{775CA31B-91D7-42ED-9B50-E091380D8F32} = {47B8B935-B346-475D-ADBF-3C6651DF04E6}
 		{36D9FDC0-D35D-4368-AA94-66C6B773609C} = {47B8B935-B346-475D-ADBF-3C6651DF04E6}
+		{AC608CE0-4011-4C40-AF56-4AAB62B583D1} = {47B8B935-B346-475D-ADBF-3C6651DF04E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5242FD1-E174-420A-B618-D8E0FEE8821E}
