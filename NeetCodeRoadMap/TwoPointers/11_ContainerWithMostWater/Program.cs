@@ -6,7 +6,16 @@ int MaxArea(int[] height)
 {
     int maxArea = 0;
     var l = 0;
-    var r = height.Length;
+    var r = height.Length - 1;
+    while (l < r)
+    {
+        maxArea = Math.Max(maxArea,  (r - l) * Math.Min(height[l], height[r]));
+        if (height[l] < height[r])
+            l++;
+        else
+            r--;
+
+    }
 
     return maxArea;
 }
